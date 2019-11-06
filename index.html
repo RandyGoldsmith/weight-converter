@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    
     <title>Weight Converter</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
                 <h1 class="display-4 text-center mt-5">Weight Converter</h1>
                 <form class="mt-4">
                     <div class="form-group">
-                        <input type="number" id="pounds" class="form-control" placeholder="Enter pounds...">
+                        <input type="number" id="poundsInput" class="form-control" placeholder="Enter pounds...">
                     </div>
                 </form>
             
@@ -23,25 +24,28 @@
                     <div class="card bg-primary mb-3">
                         <div class="card-body">
                             <h4>Kilograms:</h4>
-                            <div id="kg"></div>
+                            <div id="getKg"></div>
                         </div>
                     </div>
+
                     <div class="card bg-success mb-3">
                         <div class="card-body">
                             <h4>Ounces:</h4>
-                            <div id="oz"></div>
+                            <div id="getOz"></div>
                         </div>
                     </div>
+
                     <div class="card bg-danger mb-3">
                         <div class="card-body">
                             <h4>Grams:</h4>
-                            <div id="gr"></div>
+                            <div id="getGr"></div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
